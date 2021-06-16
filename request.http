@@ -1,0 +1,25 @@
+###
+POST http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+    "user_name": "David",
+    "age": 25,
+    "email": "david@gmail.com",
+    "password": "davidspassword"
+}
+
+###
+Get http://localhost:3000/api/user
+
+###
+DELETE  http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+      "id": 4,
+      "user_name": "David",
+      "age": 25,
+      "email": "david@gmail.com",
+      "password": "$2b$10$YuB2T5o6aZykV1cRnqyhfeoYVzRXcnCZyzizqHNz97eWxBD44mdRe"
+}
